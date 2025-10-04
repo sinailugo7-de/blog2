@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🌮 Tacos al Pastor</title>
+
+  <!-- TIPOGRAFÍAS BONITAS -->
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Quicksand', sans-serif;
+      background: linear-gradient(to bottom right, #ffe4ec, #ffd6e8);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 2rem;
+    }
+
+    .card {
+      background: #fff0f5;
+      border-radius: 20px;
+      padding: 2.5rem;
+      max-width: 700px;
+      width: 100%;
+      box-shadow: 0 20px 60px rgba(255, 182, 193, 0.4);
+      border: 4px solid #f8a5c2;
+      animation: fadeIn 1s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.95); }
+      to { opacity: 1; transform: scale(1); }
+    }
+
+    h1 {
+      font-family: 'Pacifico', cursive;
+      color: #d63384;
+      font-size: 2.5rem;
+      text-align: center;
+      margin-bottom: 1rem;
+      text-shadow: 1px 1px #fff;
+    }
+
+    h2 {
+      color: #e75480;
+      font-size: 1.4rem;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      font-weight: 600;
+    }
+
+    ul, ol {
+      padding-left: 1.5rem;
+      line-height: 1.8;
+      color: #444;
+      font-size: 1rem;
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 2.5rem;
+      font-size: 0.9rem;
+      color: #888;
+      font-style: italic;
+    }
+
+    .btn-regresar {
+      display: inline-block;
+      margin-top: 2rem;
+      padding: 0.8rem 1.8rem;
+      background: linear-gradient(145deg, #ffb6c1, #f78fb3);
+      color: white;
+      font-weight: bold;
+      font-size: 1rem;
+      text-decoration: none;
+      border: none;
+      border-radius: 50px;
+      box-shadow: 0 8px 20px rgba(255, 105, 180, 0.4);
+      transition: all 0.3s ease;
+      animation: bounce 2s infinite;
+    }
+
+    .btn-regresar:hover {
+      background: linear-gradient(145deg, #f78fb3, #ffb6c1);
+      transform: scale(1.05);
+    }
+
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-5px); }
+    }
+
+    @media (max-width: 768px) {
+      .card {
+        padding: 1.5rem;
+      }
+      h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>🌮 Tacos al Pastor</h1>
+
+    <h2>Ingredientes:</h2>
+    <ul>
+      <li>500g de carne de cerdo en láminas delgadas</li>
+      <li>3 chiles guajillo (desvenados e hidratados)</li>
+      <li>2 dientes de ajo</li>
+      <li>1/4 de cebolla</li>
+      <li>1/2 taza de jugo de piña</li>
+      <li>2 cdas de vinagre blanco</li>
+      <li>1 cdita de comino</li>
+      <li>1 cdita de orégano</li>
+      <li>Sal y pimienta al gusto</li>
+      <li>Rodajas de piña</li>
+      <li>Tortillas de maíz</li>
+      <li>Cilantro y cebolla picada</li>
+      <li>Limones al gusto</li>
+    </ul>
+
+    <h2>Preparación:</h2>
+    <ol>
+      <li>Licúa los chiles, ajo, cebolla, jugo de piña, vinagre y especias.</li>
+      <li>Marina la carne con la mezcla durante al menos 4 horas (idealmente toda la noche).</li>
+      <li>Asa la carne en un sartén o parrilla caliente hasta dorar.</li>
+      <li>Calienta las tortillas.</li>
+      <li>Coloca la carne en las tortillas y añade piña, cebolla y cilantro.</li>
+      <li>Sirve con limón al gusto y ¡disfruta!</li>
+    </ol>
+
+    <a href="index.html" class="btn-regresar">← Regresar a la página principal</a>
+
+    <div class="footer">
+      
+    </div>
+  </div>
+</body>
+</html>

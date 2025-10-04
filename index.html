@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Blog Culinario</title>
+  <link rel="stylesheet" href="estilos.css">
+  
+
+  <!-- Fuentes de Google -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body> 
+  <!-- encabezado -->
+  <header>
+    <div class="encabezado">
+      <div class="logo">
+        <h1 style="font-size: 2.5rem;"> ★Mi Blog Culinario★ </h1>
+        
+      </div>
+      <nav class="nav-menu">
+        <ul class="menu-list">
+          <li><a href="#inicio" class="menu-item">Inicio</a></li>
+          <li><a href="#recetas" class="menu-item">Recetas</a></li>
+          <li><a href="#categorias" class="menu-item">Categorías</a></li>
+          <li><a href="#sobre-mi" class="menu-item">Sobre Mí</a></li>
+          <li><a href="#contacto" class="menu-item">Contacto</a></li>
+        </ul>
+  </header>
+
+  <main class="main">
+    <!-- HERO SECTION -->
+    <section id="inicio" class="hero">
+      <div class="hero-content">
+        <h1>Bienvenido a mi blog culinario!</h1>
+        <p>  </p>
+        <a href="#recetas" class="cta-button">Explorar</a>
+      </div>
+    </section>
+
+    <!-- RECETAS DESTACADAS -->
+    <section id="recetas" class="featured-recipes">
+      <h2>Recetas Destacadas</h2>
+      <div class="recipes-grid">
+        <article class="recipe-card">
+          <div class="recipe-image">
+            <img src="pastor.jpeg" alt="Taco al Pastor">
+            >
+          </div>
+          <div class="recipe-content">
+            <h3>Taco al Pastor</h3>
+            <p> Un platillo popular y delicioso .</p>
+            <div class="recipe-meta">
+              <span><i class="far fa-clock"></i> 1 hora</span>
+              <span><i class="fas fa-signal"></i> Facil</span>
+              <span><i class="fas fa-user-friends"></i> 6 personas</span>
+            </div>
+            <a href="taco.html" class="recipe-button">Ver Receta</a>
+          </div>
+        </article>
+        
+        <article class="recipe-card">
+          <div class="recipe-image">
+            <img src="pastel.jpeg" alt="Pastel de Chocolate">
+            
+          </div>
+          <div class="recipe-content">
+            <h3>Pastel de Chocolate</h3>
+            <p> Postre delicioso y facil de preparar.</p>
+            <div class="recipe-meta">
+              <span><i class="far fa-clock"></i> 2 hora</span>
+              <span><i class="fas fa-signal"></i> Fácil</span>
+              <span><i class="fas fa-user-friends"></i> 10 personas</span>
+            </div>
+            <a href="pastel.html" class="recipe-button">Ver Receta</a>
+          </div>
+        </article>
+        
+        <article class="recipe-card">
+          <div class="recipe-image">
+            <img src="enchis.jpeg" alt="Enchiladas con Queso">
+            
+          </div>
+          <div class="recipe-content">
+            <h3>Enchiladas con Queso </h3>
+            <p>Receta facil y deliciosa</p>
+            <div class="recipe-meta">
+              <span><i class="far fa-clock"></i> 1 hora</span>
+              <span><i class="fas fa-signal"></i> Facil</span>
+              <span><i class="fas fa-user-friends"></i> 7 personas</span>
+            </div>
+            <a href="enchis.html" class="recipe-button">Ver Receta</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CATEGORÍAS -->
+    <section id="categorias" class="categories">
+      <h2>Categorías</h2>
+      <div class="categories-container">
+        <div class="category">
+          <i class="fas fa-pasta"></i>
+          <h3>🌮TACOS</h3>
+          <span class="count">(1)</span>
+        </div>
+        <div class="category">
+          <i class="fas fa-salad"></i>
+          <h3>🎂POSTRES</h3>
+          <span class="count">(1)</span>
+        </div>
+        <div class="category">
+          <i class="fas fa-ice-cream"></i>
+          <h3>🍕PIZZAS</h3>
+          <span class="count">(0)</span>
+        </div>
+        <div class="category">
+          <i class="fas fa-home"></i>
+          <h3>🍲ENCHILADAS</h3>
+          <span class="count">(1)</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE MÍ -->
+    <section id="sobre-mi" class="about">
+      <div class="about-container">
+        <div class="about-text">
+          <h2>Sobre Mí</h2>
+          <p>¡Hola! Mi nombre es Nazaret, realize este blog de cocina para que puedas 
+            realizar estas recestas que son muy faciles y sencilas para ocaciones especiales o eventos 
+            esperando sea de tu agrado y las puedas realizar no me gusta tanto lo dulce
+            por esa razon coloque solo un postre pero bienvenido y espero te guste mi blog.</p>
+            <div class="social-links">
+                <a href="https://www.instagram.com/naaz_slug/" target="_blank" rel="noopener noreferrer">
+                  <img src="insta.jpeg" alt="Instagram" class="social-logo"> Instagram
+                </a>
+                <a href="https://www.facebook.com/naaz.slug" target="_blank" rel="noopener noreferrer">
+                  <img src="face.jpeg" alt="Facebook" class="social-logo"> Facebook
+                </a>
+              </div>
+        </div>
+        <div class="about-image">
+          <img src="nazi.jpeg" alt="naz] en la cocina">
+        </div>
+      </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section class="newsletter">
+      <div class="newsletter-content">
+        <h2><i class="fas fa-envelope"></i> Suscríbete </h2>
+        <p>Recibe  recetas cada semana</p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Tu email aquí..." required>
+          <button type="submit" class="btn">Suscribirme</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer id="contacto" class="footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3><i class="fas fa-utensils"></i> Mi Blog Culinario</h3>
+        <p>Recetas desde 1950</p>
+      </div>
+      
+      
+      <div class="footer-section">
+        <h4>Contacto</h4>
+        <p><i class="fas fa-envelope"></i>Nezkuiks@gmail.com</p>
+        <p><i class="fas fa-phone"></i> +52 722 345 2367</p>
+        <p><i class="fas fa-map-marker-alt"></i> Zinacantepec, Estado de Mexico</p>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p> ˚.🎀 2025 Mi Blog Culinario. Creado por Nazaret Sinai Lugo Gonzalez</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
